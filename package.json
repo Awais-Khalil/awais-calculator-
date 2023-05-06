@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "name": "@awais-khalil/awais-calculator",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.15.7",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@awais-khalil/awais-calculator": "^1.0.0",
+    "@awais-khalil/number_guessing-game": "^1.0.0",
+    "@types/chalk-animation": "^1.6.1",
+    "chalk-animation": "^2.0.3",
+    "prompt-sync": "^4.2.0"
+  },
+  "bin": {
+    "awais-calculator": "index.js"
+  }
+}
